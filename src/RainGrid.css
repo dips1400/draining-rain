@@ -1,0 +1,23 @@
+.rain-grid {
+  display: grid;
+  gap: 1px;
+  height: 100%;
+  background-color: black;
+  margin: 0 auto;
+  border: 1px solid #979191;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.cell {
+  width: 13px;
+  height: 13px;
+  background-color: transparent;
+  border-radius: 2px;
+}
+
+.cell.active {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
